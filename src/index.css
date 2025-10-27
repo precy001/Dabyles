@@ -1,0 +1,15 @@
+@font-face {
+    font-family:Proxima Nova;
+    src: url(assets/fonts/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanova-medium.otf);
+  }
+
+*{
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:Proxima Nova;
+}
+
+html{
+  scroll-behavior: smooth;
+}

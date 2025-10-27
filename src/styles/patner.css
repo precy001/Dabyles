@@ -1,0 +1,44 @@
+.patner-container{
+    background-image: linear-gradient(#000c, #000c), url(../assets/images/126815.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    width: 80%;
+    border-radius: 8px;
+    text-align: center;
+    margin: 2rem;
+    margin-top: 5rem;
+}
+
+.big-text{
+    color: white;
+    padding-top: 4rem;
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+.small-text{
+    color: white;
+    width: 55%;
+    opacity: .7;
+    font-size: .8rem;
+    margin-top: 8rem;
+}
+
+.work{
+     padding-top: 6rem;
+     transition: .2s ease-in-out;
+}
+
+.work a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #d14830;
+    padding: .8rem 1.5rem;
+    border-radius: 1.4rem;
+}
+
+.work:hover{
+    opacity: .8;
+}

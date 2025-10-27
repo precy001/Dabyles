@@ -1,0 +1,10 @@
+.about-us{
+    width: 65%;
+    opacity: .8;
+}
+
+.about-us .paragraph{
+    padding: .2rem 5rem;
+    display: block;
+    margin-bottom: 1.5rem;
+}

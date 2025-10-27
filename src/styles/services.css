@@ -1,0 +1,42 @@
+.services-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns */
+  gap: 1.5rem;                            /* spacing between cards */
+  padding: .2rem 5rem;
+  align-items: stretch;
+  box-sizing: border-box;
+}
+
+.each-service-card {
+  width: 90%;
+  height: 25rem;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  box-sizing: border-box;
+  overflow: hidden;   /* prevents inner content from expanding width */
+  min-width: 0;       /* important for flex items — safe to keep */
+}
+
+
+.services{
+    margin-top: 5rem;
+    background-color: #e8e9eb;
+    padding-bottom: 3rem;
+}
+
+.texts{
+    padding: 2rem;
+}
+
+.service-desc{
+    opacity: .8;
+    font-size: .8rem;
+    line-height: 2;
+    margin-top: 3rem;
+}
+
+.each-head-text{
+    font-weight: 700;
+}

@@ -1,0 +1,69 @@
+.hero{
+    background: linear-gradient(#000, rgba(0, 0, 0, 0.8)), url(../assets/images/engbg.webp);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.short-intro{
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight:1000;
+    padding: 6rem 5rem;
+    padding-bottom:3.5rem;
+    display: inline-block;
+}
+
+.special{
+    display: block;
+    margin-top: 1rem;
+    font-size: 4.5rem;
+}
+
+.explore-btn a{
+    font-weight: 1rem;
+    text-decoration: none;
+    color: #fff;
+    margin:5rem;
+    background-color: #d14830;
+    padding: .8rem 4rem;   
+    border-radius: 1.4rem;
+}
+
+.explore-btn{
+    transition: .2s ease-in-out;
+}
+
+.explore-btn:hover{
+    opacity: .8;
+}
+
+.text{
+    letter-spacing: 10px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+    typing 2s steps(42),
+    cursor .4s step-end infinite alternate
+    ;
+}
+
+@keyframes cursor{
+    50%{
+        border-color: transparent;
+    }
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+
+.top-text{
+    font-size: 1rem;
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: .8rem;
+}

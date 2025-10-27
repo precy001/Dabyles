@@ -1,0 +1,60 @@
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width:48%;
+}
+
+.contact-form input, textarea{
+    border: 2px solid #747474;
+    border-radius: 3px;
+    outline: none;
+}
+
+.google-map{
+    width: 48%;
+
+}
+
+.contact-form input{
+    height: 3rem;
+    margin-bottom: 2.8rem;
+    text-indent: 4px;
+}
+
+.contact-form input[type = submit]{
+    border: 2px solid #d14830;
+    background-color: #d14830;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    font-family:Proxima Nova;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.contact-form input[type = submit]:hover{
+    opacity: .8;
+}
+
+textarea{
+    margin-bottom: 2.8rem;
+    height: 99px;
+    text-indent: 4px;
+}
+
+label{
+    margin-bottom: 4px;
+    opacity: .8;
+}
+
+.contact-note{
+    width: 60%;
+    opacity: .8;
+    margin-bottom: 5rem;
+}

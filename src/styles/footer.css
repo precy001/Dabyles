@@ -1,0 +1,180 @@
+.footer-container{
+    background-color: hsl(0, 0%, 27%);
+    padding: 2rem;
+    margin-top: 7rem;
+}
+
+/* Footer.css - plain CSS for the footer component */
+
+/* Colors */
+:root{
+  --footer-bg: #1c1c1c;       /* dark green from example */
+  --accent-yellow: #d14830;   /* bright yellow for logo & social buttons */
+  --muted-white: rgba(255,255,255,0.9);
+  --muted-small: rgba(255,255,255,0.8);
+  --divider: rgba(255,255,255,0.06);
+  --container-max: 1200px;
+}
+
+.site-footer {
+  background: var(--footer-bg);
+  color: var(--muted-white);
+  font-size: 14px;
+  margin-top: 4rem;
+  padding: 2rem;
+}
+
+.footer-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 28px 48px;
+  box-sizing: border-box;
+}
+
+/* Top area: 4 equal columns */
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+  align-items: start;
+}
+
+/* Brand column */
+.footer-brand {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.brand-mark {
+  width: 44px;
+  height: 44px;
+  background: var(--accent-yellow);
+  color: #12302d;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.brand-name {
+  color: var(--accent-yellow);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.brand-tag {
+  margin-top: 6px;
+  color: var(--muted-small);
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+/* Small tagline column (keeps visual distribution like screenshot) */
+.footer-tagline .muted-accent {
+  color: var(--accent-yellow);
+  margin: 0 0 6px 0;
+  font-size: 13px;
+  font-weight: 700;
+}
+.footer-tagline .muted-small {
+  margin: 0;
+  color: var(--muted-small);
+  font-size: 13px;
+}
+
+/* Links column */
+.footer-links h4 {
+  margin: 0 0 10px 0;
+  color: var(--accent-yellow);
+  font-size: 13px;
+  font-weight: 700;
+}
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-links a {
+  color: var(--muted-small);
+  text-decoration: underline;
+  font-size: 13px;
+}
+.footer-links li { margin-bottom: 8px; }
+
+/* Contact column */
+.footer-contact h4 {
+  margin: 0 0 10px 0;
+  color: var(--accent-yellow);
+  font-size: 13px;
+  font-weight: 700;
+}
+.footer-contact .muted-small {
+  color: var(--muted-small);
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+.contact-mail {
+  display: inline-block;
+  color: var(--muted-small);
+  text-decoration: underline;
+  font-size: 13px;
+}
+
+/* Divider */
+.footer-divider {
+  height: 1px;
+  background: var(--divider);
+  margin: 20px 0;
+  border-radius: 1px;
+}
+
+/* Bottom row */
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.footer-bottom .copyright {
+  color: rgba(255,255,255,0.75);
+  font-size: 12px;
+}
+
+/* Social buttons (yellow rounded squares) */
+.socials {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.social-btn {
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-yellow);
+  color: #12302d;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.08);
+}
+.social-btn svg { display: block; }
+
+/* Responsive adjustments */
+@media (max-width: 920px) {
+  .footer-inner { padding: 24px 28px; }
+  .footer-top { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 520px) {
+  .footer-top { grid-template-columns: 1fr; }
+  .footer-brand { align-items: flex-start; }
+  .footer-bottom { justify-content: center; text-align: center; gap: 16px; }
+}
