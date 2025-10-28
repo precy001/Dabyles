@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/footer.css";
-import Logo from "../assets/images/Dabyles_logo.png"
+import Logo from "../assets/images/Dabylesint.png"
 
 export default function Footer() {
   return (
