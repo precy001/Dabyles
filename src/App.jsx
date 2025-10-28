@@ -4,6 +4,7 @@ import Theteam from "./components/Theteam";
 import Services from "./components/Services";
 import Vision from "./components/Vision";
 import PatnerSection from "./components/PatnerSection";
+import Strip from "./components/strip";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import "./styles/general.css";
@@ -46,6 +47,7 @@ function App() {
     <>
       <div className="cursor" ref={cursorRef} />
       <Hero />
+      <Strip />
       <About />
       <Vision />
       <center>

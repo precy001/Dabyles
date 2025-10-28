@@ -1,5 +1,5 @@
 :root {
-  --primary-green: #013f31;
+  --primary-color: #636b2f;
 }
 
 .header {
@@ -44,7 +44,7 @@
 
 .nav-links a:hover,
 .nav-links a.active {
-  color: var(--primary-green);
+  color: var(--primary-color);
 }
 
 .nav-links a::after {
@@ -54,7 +54,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background-color: var(--primary-green);
+  background-color: var(--primary-color);
   transition: width 0.3s ease;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .cta-btn {
-  background-color: var(--primary-green);
+  background-color: var(--primary-color);
   border: none;
   padding: 0.45rem 1.2rem;
   border-radius: 6px;
@@ -75,6 +75,6 @@
 }
 
 .cta-btn:hover {
-  background-color: var(--primary-green);
+  background-color: var(--primary-color);
   transform: translateY(-2px);
 }

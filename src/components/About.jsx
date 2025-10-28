@@ -1,12 +1,14 @@
 import React from 'react'
 import "../styles/general.css"
 import "../styles/about.css"
-
+import scribble from "../assets/images/new2.png"
 const About = () => {
   return (
     <div className="about-section" id="about">
       
-      <div className="slanted-bg"></div>
+      <div className="slanted-bg">
+        
+      </div>
 
       {/* Foreground content */}
       <div className="about-content">
