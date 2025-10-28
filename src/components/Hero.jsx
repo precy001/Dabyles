@@ -15,7 +15,7 @@ const Hero = () => {
           </div>
 
           <div className="text">
-            Driven By Passion For 
+            Driven by Passion for 
             <span className='special'> Sustainable Solutions.</span>
           </div>
         </div>
@@ -25,25 +25,7 @@ const Hero = () => {
         </div>
 
        
-        <div className="industry-strip">
-          <div className="industry-boxleft">
-            <FaIndustry className="icon" />
-            <h3>Industrial Solutions</h3>
-            <p>We build systems that power growth and efficiency in modern industries.</p>
-          </div>
-
-          <div className="industry-boxcenter">
-            <FaCogs className="icon" />
-            <h3>Mechanical Solutions</h3>
-            <p>Innovative designs that keep operations smooth and reliable.</p>
-          </div>
-
-          <div className="industry-boxright">
-            <FaTools className="icon" />
-            <h3>Welding Solutions</h3>
-            <p>Precision welding and fabrication services built for durability and strength.</p>
-          </div>
-        </div>
+      
       </div>
     </div>
   )
