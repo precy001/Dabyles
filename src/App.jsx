@@ -4,11 +4,10 @@ import Theteam from "./components/Theteam";
 import Services from "./components/Services";
 import Vision from "./components/Vision";
 import PatnerSection from "./components/PatnerSection";
-import Strip from "./components/strip";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import "./styles/general.css";
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 
 function App() {
   const cursorRef = useRef(null);
@@ -46,8 +45,7 @@ function App() {
   return (
     <>
       <div className="cursor" ref={cursorRef} />
-      <Hero />
-      <Strip />
+      <Hero/>
       <About />
       <Vision />
       <center>
