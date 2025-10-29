@@ -7,14 +7,6 @@
 /* Footer.css - plain CSS for the footer component */
 
 /* Colors */
-:root{
-  --footer-bg: #1c1c1c;       /* dark green from example */
-  --accent-yellow: #d14830;   /* bright yellow for logo & social buttons */
-  --muted-white: rgba(255,255,255,0.9);
-  --muted-small: rgba(255,255,255,0.8);
-  --divider: rgba(255,255,255,0.06);
-  --container-max: 1200px;
-}
 
 .site-footer {
   background: var(--footer-bg);

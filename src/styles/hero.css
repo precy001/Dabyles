@@ -1,9 +1,10 @@
 .hero {
-  background: linear-gradient(#000, rgba(0, 0, 0, 0.1)),
+  background: linear-gradient(#000, rgba(0, 0, 0, 0.5)),
               url('../assets/images/engbg2.jpg');
   height: 88.1vh;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: flex-start; 
@@ -11,6 +12,7 @@
   padding-left: 5rem;
   padding-right: 5rem;
   box-sizing: border-box;
+  transition: .5s ease-in-out;
 }
 
 .short-intro {

@@ -63,9 +63,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="contact-info">
-
-      </div>
+      
     </div>
   )
 }

@@ -34,7 +34,7 @@
 .work a{
     text-decoration: none;
     color: #fff;
-    background-color:var(--primary-green);
+    background-color:var(--primary-color);
     padding: .8rem 1.5rem;
     border-radius: 1.4rem;
 }
