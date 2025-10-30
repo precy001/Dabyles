@@ -28,6 +28,7 @@
   padding: 5px 0;
   color: inherit; /* inherit grey text from strip */
   cursor : pointer;
+  padding: 2rem;
 }
 
 .industry-boxleft {
@@ -47,7 +48,7 @@
 @media (max-width: 800px) {
   .industry-strip {
     flex-direction: column;
-    width: 100%;
+    width: 85vw;
     height: auto;
     margin-top: 2rem;
     border-radius: 0;

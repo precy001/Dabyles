@@ -76,12 +76,6 @@
     animation-range: entry 0 cover 20%;
 }
 
-.paragraph{
-     animation: appear2 linear;
-    animation-timeline: view();
-    animation-range: entry 0 cover 40%;
-}
-
 .mission-card{
     animation: appear2 linear;
     animation-timeline: view();

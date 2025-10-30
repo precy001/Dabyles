@@ -14,9 +14,9 @@ const Theteam = () => {
       </div>
       
       <div className="team-container">
-        <Teamcard memberName = "Mr. Adedayo Osore" designation = "Director" mail = "dayoosore@dabyles.com " img = {adebayo}/>
-        <Teamcard memberName = "Mr. Abayomi Popoola" designation = "Director" mail = "yomipopoola@dabyles.com" img = {popoola}/>
-           <Teamcard memberName = "Dr. Olanrewaju Adesusi" designation = "Director" mail = "lanreadesusi@dabyles.com" img = {adesusi}/>
+        <Teamcard memberName = "Mr. Adedayo Osore" designation = "Director" mail = "dayoosore@dabyles.com.ng " img = {adebayo}/>
+        <Teamcard memberName = "Mr. Abayomi Popoola" designation = "Director" mail = "yomipopoola@dabyles.com.ng" img = {popoola}/>
+           <Teamcard memberName = "Dr. Olanrewaju Adesusi" designation = "Director" mail = "lanreadesusi@dabyles.com.ng" img = {adesusi}/>
       </div>
     </div>
   )

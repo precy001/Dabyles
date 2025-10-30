@@ -42,7 +42,7 @@
     border-radius: 3px;
     cursor: pointer;
     transition: .5s ease-in-out;
-    font-family:Proxima Nova;
+    font-family:Manrope;
     font-size: 1rem;
     color: #fff;
 }
@@ -66,4 +66,23 @@ label{
     width: 60%;
     opacity: .8;
     margin-bottom: 5rem;
+}
+
+
+@media all and (max-width:1024px){
+  .navigation{
+    display: none;
+  }
+
+  .cta-btn{
+    display: none;
+  }
+
+  .contact-section{
+    flex-direction: column;
+  }
+
+  .contact-form, .google-map{
+    width: 96%;
+  }
 }

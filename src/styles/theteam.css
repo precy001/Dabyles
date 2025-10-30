@@ -26,6 +26,13 @@
   padding-bottom: 0.8rem;
   overflow: hidden;
 }
+
+@media all and (max-width: 1374px){
+    .card{
+        width: 20rem;
+    }
+}
+
 .card .img img{
     width: 140px;
     height: 140px;
@@ -45,4 +52,16 @@
 }
 .card h2{
     margin-top: 2rem;
+}
+
+
+@media all and (max-width:1163px){
+  .team-container{
+    flex-direction: column;;
+  }
+
+  .team-container .card{
+    margin-bottom: 2rem;
+    width: 80vw;
+  }
 }
