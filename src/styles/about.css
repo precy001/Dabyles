@@ -1,5 +1,5 @@
 .about-section {
-    margin-top: rem;
+  margin-top: rem;
   position: relative;
   display: flex;
   align-items: stretch;
@@ -45,3 +45,16 @@ margin-top: 3rem;
 }
 
 
+@media all and (max-width:1163px){
+  .about-section{
+    flex-direction: column;
+  }
+
+  .slanted-bg{
+    width: 85vw;
+  }
+
+  .about-content{
+    display: none;
+  }
+}

@@ -41,7 +41,7 @@
 .brand-mark {
   width: 44px;
   height: 44px;
-  background: var(--primary-green);
+  background: var(--primary-color);
   color: #12302d;
   border-radius: 6px;
   display: flex;
@@ -52,7 +52,7 @@
 }
 
 .brand-name {
-  color: var(--primary-green);
+  color: var(--primary-color);
   font-weight: 700;
   font-size: 20px;
   line-height: 1;
@@ -67,7 +67,7 @@
 
 /* Small tagline column (keeps visual distribution like screenshot) */
 .footer-tagline .muted-accent {
-  color: var(--primary-green);
+  color: var(--primary-color);
   margin: 0 0 6px 0;
   font-size: 13px;
   font-weight: 700;
@@ -81,7 +81,7 @@
 /* Links column */
 .footer-links h4 {
   margin: 0 0 10px 0;
-  color: var(--primary-green);
+  color: var(--primary-color);
   font-size: 13px;
   font-weight: 700;
 }
@@ -100,7 +100,7 @@
 /* Contact column */
 .footer-contact h4 {
   margin: 0 0 10px 0;
-  color: var(--primary-green);
+  color: var(--primary-color);
   font-size: 13px;
   font-weight: 700;
 }
@@ -151,7 +151,6 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: var(--primary-green);
   color: #12302d;
   border-radius: 6px;
   text-decoration: none;

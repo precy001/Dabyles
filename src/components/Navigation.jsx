@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import "../styles/header.css"
+import { Link } from 'react-router-dom'
 
 const Navigation = () => {
- 
+
   return (
     <div>
       <div className="nav-links">
         <div>
-        <a href="" className='active-link'>Home</a>
+        <a href="#" className='active-link'>Home</a>
 
         </div>
 

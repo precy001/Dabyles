@@ -10,6 +10,7 @@
     margin-top: 5rem;
 }
 
+
 .big-text{
     color: white;
     padding-top: 4rem;
@@ -41,4 +42,15 @@
 
 .work:hover{
     opacity: .8;
+}
+
+
+@media all and (max-width: 529px){
+    .patner-container{
+        height: 83vh;
+    }
+
+    .big-text{
+        font-size: 2rem;
+    }
 }

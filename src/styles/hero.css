@@ -77,3 +77,19 @@
   margin-bottom: .8rem;
   margin-top: 0; /* removed original 100px to push text up */
 }
+
+@media all and (max-width:1024px){
+  .hero{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .short-intro{
+    font-size: 2rem;
+  }
+
+  .special{
+    font-size: 2.2rem;
+  }
+}

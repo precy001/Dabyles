@@ -1,6 +1,6 @@
 @font-face {
-    font-family:Proxima Nova;
-    src: url(assets/fonts/Proxima-Nova-Demo-Font/Demo_Fonts/Fontspring-DEMO-proximanova-medium.otf);
+    font-family:Manrope;
+    src: url(assets/fonts/Manrope-VariableFont_wght.ttf);
   }
 
   :root{
@@ -16,9 +16,10 @@
   border: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family:Proxima Nova;
+  font-family:Manrope;
 }
 
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }

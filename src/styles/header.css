@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #1f2937;
+  --primary-color: #636b2f;
 }
 
 .header {
-  width: 100%;
+  width: 100vw;
   background: transparent;
   color: white;
   padding: 0.6rem 0;
@@ -77,4 +77,108 @@
 .cta-btn:hover {
   background-color: var(--primary-color);
   transform: translateY(-2px);
+}
+
+
+.hamburger{
+    position: relative;
+    width:40px;
+    cursor: pointer;
+    border-radius: 20px;
+    background: none;
+    border: none;
+    float: right;
+    z-index: 10000;
+    display:none;
+}
+
+.hamburger .bar, .hamburger::after, .hamburger::before{ 
+    content:'';
+    display: block;
+    width:100%;
+    height: 3px;
+    background-color:white;
+    margin: 6px 0px;
+    transition: 0.4s;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.hamburger.is-active:before{
+    transform: rotate(-45deg) translate(-8px, 7px);
+    background-color: white;
+}
+
+.hamburger.is-active:after{
+    transform: rotate(45deg) translate(-5px, -5px);
+    background-color: white;
+}
+
+.hamburger.is-active .bar{
+    opacity: 0;
+}
+
+.mobile-nav{
+    display:none;
+    width:500%;
+    position: fixed;
+    top: 0;
+    left:100%; 
+    margin: 0;
+    z-index:98;
+    background-color: var(--primary-color); 
+    margin-left:50%;
+    min-height:100vh;
+    padding:15%;
+    padding-top:30%;
+    transition: 0.4s ease;
+}
+
+.mobile-nav.is-active{
+    left: 0;
+}
+.mobile-nav button{
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin-bottom:16px;
+    width: fit-content;
+    padding: 12px 16px;
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+    margin-top:30px;
+    text-align: center;
+}
+
+.mobile-nav button:nth-child(1){
+  top: 50px;
+}
+
+.mobile-nav button:nth-child(2){
+  top: 100px;
+}
+
+.mobile-nav button:nth-child(3){
+  top: 150px;
+}
+
+.mobile-nav button:nth-child(4){
+  top: 200px;
+}
+
+.mobile-nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+@media all and (max-width : 1024px){
+  .hamburger{
+    display: block;
+  }
+
+  .mobile-nav{
+    display: block;
+  }
 }
